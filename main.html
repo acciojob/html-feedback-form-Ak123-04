@@ -7,10 +7,18 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	<h1>Feedback Form</h1>
+	<form action="/submit" method="post">
+	<label for="name">Enter the name</label>
+	<input type="text" id="name" required maxlength=50>
+	<label for="portfolio">Enter the portfolio</label>
+	<input type="url" id="portfolio">
+	<label for="favColor">Select favColor</label>
+	<input type="color" id="favColor">
+	<label for="likeness">Select the range</label>
+	<input type="range" id="likeness" min=1 max=100>
+	
+	</form>
 </body>
 
 </html>
